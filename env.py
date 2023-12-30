@@ -7,7 +7,7 @@ class BuildEnv:
         self.point_clouds = []
         self.external_map = pygame.image.load("map.png")
         self.maph, self.mapw = map_dims
-        self.map_window_name = "RRT Path Planning"
+        self.map_window_name = "Indoor ENV"
         pygame.display.set_caption(self.map_window_name)
         self.map = pygame.display.set_mode((self.mapw, self.maph))
         self.map.blit(self.external_map, (0, 0))
